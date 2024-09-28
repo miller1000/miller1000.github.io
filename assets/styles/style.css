@@ -1,0 +1,13 @@
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#tagline {
+    font-size: 1.5rem;
+}
+
+body {
+    font-family: 'fira_monoregular', monospace, 'Courier New', Courier;
+    margin: 20px 30px;
+}
