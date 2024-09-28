@@ -1,5 +1,5 @@
 h1 {
-    font-size: 3rem;
+    font-size: clamp(2rem, 7vw + 1rem, 4rem);
     margin-bottom: 1rem;
 }
 
