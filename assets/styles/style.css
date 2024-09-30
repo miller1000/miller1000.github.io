@@ -1,24 +1,44 @@
-h1 {
-    font-size: clamp(2rem, 7vw + 1rem, 4rem);
-    margin-bottom: 1rem;
+#site-name {
+    font-size: 1rem;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-bottom: 2rem;
+}
+
+#hero-container {
+    display: grid;
+    align-items: center;
+    column-gap: 10px;
+    margin: 20px 30px;
+}
+
+#hero-img {
+    max-width: 85%;
+    max-height: 85%;
+    justify-self: center;
+    
 }
 
 #tagline {
-    font-size: 1.5rem;
+    font-size: clamp(2rem, 7vw + 1rem, 4rem);
+    margin-bottom: 1rem;
     text-wrap: balance;
 }
 
 body {
+    min-height: 100vh;
+    width: 100%;
     font-family: 'fira_monoregular', monospace, 'Courier New', Courier;
-    margin: 20px 30px;
 }
 
-.h1-br {
-    display: none;
-}
 
-@media only screen and (max-width: 468px) {
-    .h1-br {
-        display: inline;
+
+@media (min-width: 600px) {
+    #hero-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #tagline {
+        grid-column: 2 / 4;
     }
 }
