@@ -20,8 +20,11 @@
 }
 
 #tagline {
-    font-size: clamp(2rem, 7vw + 1rem, 4rem);
+    font-size: 2rem;
+    font-size: clamp(2rem, 0.7179487179487178rem + 5.47008547008547vw, 4rem);
+    max-inline-size: 27ch;
     margin-bottom: 1rem;
+    white-space: unset;
     text-wrap: balance;
 }
 
