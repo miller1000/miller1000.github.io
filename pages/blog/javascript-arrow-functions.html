@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../assets/styles/reset.css" rel="stylesheet" />
+    <link href="../../assets/styles/fonts.css" rel="stylesheet" />
+    <link href="../../assets/styles/style.css" rel="stylesheet" />
+    <title>JavaScript Arrow Functions</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+    <main>
+        <p id="site-name"><a id="site-home-link" href="../../index.html">carlCodes.tech</a></p>
+        <div id="hero-container">
+            <img id="hero-img" src="../../images/brain-tree.webp" alt="Brain growing from plant">
+            <h1 id="tagline">Blog:<br>JavaScript Arrow Functions</h1>
+        </div>
+        <section id="blog-articles">
+            <article id="article-card">
+                <h2>JavaScript Arrow Functions</h2>
+                <p>Arrow functions, provide a more concise way to write function expressions in JavaScript.<br><br> 
+                They're especially handy for callbacks or functions that don't require their own this context.<br><br>
+                Here's a basic example of a regular function and an arrow function:</p><br><br> 
+                <p><code>
+                    // Regular function<br>
+                    function add(a, b) {<br>
+                        return a + b;<br>
+                    }<br><br> 
+
+                    // Arrow function<br>
+                    const add = (a, b) => a + b;
+                </code></p>
+
+                <h3>Key Points:</h3>
+                    <ul>
+                        <li>Concise way of writing a function.</li>
+                        <li>If the function body is a single expression, neither the 'return' keyword or curly brackets are needed.</li>
+                        <li>They do not have their own 'this' context.</li>
+                    </ul>
+                <div class="flex-buttons">
+                    <a class="article-link" href="../../index.html">More Articles</a>
+                    <a class="article-link" href="../../index.html">Home</a> 
+                </div>         
+            </article>
+        </section>
+    </main>
+</body>
+</html>
